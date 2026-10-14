@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       apipj – Consulta CNPJ for WooCommerce
- * Plugin URI:        https://apipj.com.br/
+ * Plugin URI:        https://github.com/apipj/apipj-consulta-cnpj
  * Description:       Autofills company name and address from a Brazilian CNPJ at the WooCommerce checkout (classic and block-based), in My Account and in any form, using the apipj CNPJ API.
  * Version:           1.0.0
  * Requires at least: 6.3
