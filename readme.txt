@@ -1,5 +1,5 @@
 === apipj – Consulta CNPJ for WooCommerce ===
-Contributors: apipj
+Contributors: brunogalizzi
 Tags: cnpj, woocommerce, checkout, receita federal, brazil
 Requires at least: 6.3
 Tested up to: 7.1
