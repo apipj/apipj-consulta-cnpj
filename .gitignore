@@ -1,0 +1,6 @@
+/tests/e2e/out/
+/tests/e2e/brand/
+/node_modules/
+/vendor/
+*.zip
+*.key

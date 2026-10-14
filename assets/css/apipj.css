@@ -1,0 +1,29 @@
+/* apipj – Consulta CNPJ: inline lookup status. */
+.apipj-status {
+	display: block;
+	margin: 0.35em 0 0;
+	font-size: 0.875em;
+	line-height: 1.4;
+	min-height: 0;
+}
+.apipj-status:empty {
+	display: none;
+}
+.apipj-status--info {
+	color: #50575e;
+}
+.apipj-status--success {
+	color: #00703c;
+}
+.apipj-status--warning {
+	color: #8a5a00;
+}
+.apipj-status--error {
+	color: #b32d2e;
+}
+.apipj-status--success::before {
+	content: "\2713\00a0";
+}
+.wc-block-checkout .apipj-status {
+	font-size: 0.75em;
+}

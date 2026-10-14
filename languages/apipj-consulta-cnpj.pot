@@ -1,0 +1,352 @@
+# Copyright (C) 2026 apipj
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: apipj – Consulta CNPJ for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/apipj-consulta-cnpj\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-14T01:08:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: apipj-consulta-cnpj\n"
+
+#. Plugin Name of the plugin
+#: apipj-consulta-cnpj.php
+msgid "apipj – Consulta CNPJ for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: apipj-consulta-cnpj.php
+msgid "https://apipj.com.br/"
+msgstr ""
+
+#. Description of the plugin
+#: apipj-consulta-cnpj.php
+msgid "Autofills company name and address from a Brazilian CNPJ at the WooCommerce checkout (classic and block-based), in My Account and in any form, using the apipj CNPJ API."
+msgstr ""
+
+#. Author of the plugin
+#: apipj-consulta-cnpj.php
+msgid "apipj"
+msgstr ""
+
+#: includes/class-apipj-admin.php:43
+#: includes/class-apipj-admin.php:106
+#: includes/class-apipj-admin.php:132
+msgid "apipj – CNPJ lookup"
+msgstr ""
+
+#: includes/class-apipj-admin.php:92
+msgid "Testing…"
+msgstr ""
+
+#: includes/class-apipj-admin.php:93
+msgid "The test could not be completed."
+msgstr ""
+
+#: includes/class-apipj-admin.php:135
+msgid "Settings saved."
+msgstr ""
+
+#: includes/class-apipj-admin.php:152
+#: includes/class-apipj-admin.php:302
+#: includes/class-apipj-admin.php:414
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/class-apipj-admin.php:191
+msgid "Fills company name and address from the CNPJ typed by the customer, using data from the Receita Federal open data files served by the apipj API. Only the CNPJ is sent to apipj.com.br."
+msgstr ""
+
+#: includes/class-apipj-admin.php:194
+msgid "API key"
+msgstr ""
+
+#: includes/class-apipj-admin.php:197
+msgid "defined by the APIPJ_API_KEY constant in wp-config.php."
+msgstr ""
+
+#: includes/class-apipj-admin.php:200
+msgid "Saved key:"
+msgstr ""
+
+#: includes/class-apipj-admin.php:202
+msgid "Paste a new key to replace the saved one"
+msgstr ""
+
+#: includes/class-apipj-admin.php:204
+msgid "Remove the saved key"
+msgstr ""
+
+#. translators: 1: sign-up URL, 2: pricing URL.
+#: includes/class-apipj-admin.php:211
+#, php-format
+msgid "No key yet? <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Create a free account</a> (10 lookups per minute, 50,000 per month, no credit card). Need more? See the <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">plans</a>."
+msgstr ""
+
+#: includes/class-apipj-admin.php:224
+msgid "The key is stored in the database and never shown again in full nor sent to the browser. You can also define it in wp-config.php: define( 'APIPJ_API_KEY', 'apipj_live_...' );"
+msgstr ""
+
+#: includes/class-apipj-admin.php:228
+msgid "Test connection"
+msgstr ""
+
+#: includes/class-apipj-admin.php:231
+msgid "Checks that the API is online and that the key works by looking up one CNPJ (uses 1 query of your quota)."
+msgstr ""
+
+#: includes/class-apipj-admin.php:235
+#: includes/class-apipj-admin.php:238
+msgid "Fields to fill"
+msgstr ""
+
+#: includes/class-apipj-admin.php:242
+msgid "If the form has no Number or Neighborhood field, the number is appended to the street and the neighborhood to address line 2."
+msgstr ""
+
+#: includes/class-apipj-admin.php:247
+#: includes/class-apipj-admin.php:250
+msgid "Existing values"
+msgstr ""
+
+#: includes/class-apipj-admin.php:251
+msgid "Only fill empty fields (recommended)"
+msgstr ""
+
+#: includes/class-apipj-admin.php:252
+msgid "Always replace with the data from the CNPJ"
+msgstr ""
+
+#: includes/class-apipj-admin.php:257
+msgid "Inactive companies"
+msgstr ""
+
+#: includes/class-apipj-admin.php:260
+msgid "Do nothing"
+msgstr ""
+
+#: includes/class-apipj-admin.php:261
+msgid "Show the registration status to the customer"
+msgstr ""
+
+#: includes/class-apipj-admin.php:262
+msgid "Block checkout"
+msgstr ""
+
+#: includes/class-apipj-admin.php:264
+msgid "What to do when the registration status (situação cadastral) is not ATIVA, e.g. BAIXADA, INAPTA or SUSPENSA."
+msgstr ""
+
+#: includes/class-apipj-admin.php:268
+msgid "Lookups per visitor"
+msgstr ""
+
+#: includes/class-apipj-admin.php:270
+msgid "per minute, per IP address"
+msgstr ""
+
+#: includes/class-apipj-admin.php:271
+msgid "Protects your quota against abuse. 0 disables the limit."
+msgstr ""
+
+#: includes/class-apipj-admin.php:275
+msgid "Cache"
+msgstr ""
+
+#: includes/class-apipj-admin.php:277
+msgid "days"
+msgstr ""
+
+#: includes/class-apipj-admin.php:278
+msgid "Repeated lookups of the same CNPJ are answered from the cache and do not use your quota. The Receita Federal data is updated monthly."
+msgstr ""
+
+#: includes/class-apipj-admin.php:282
+msgid "Other forms"
+msgstr ""
+
+#: includes/class-apipj-admin.php:284
+msgid "Load the form script on every page"
+msgstr ""
+
+#: includes/class-apipj-admin.php:286
+msgid "Any form works: add data-apipj-cnpj (or the CSS class apipj-cnpj) to the CNPJ input and data-apipj-campo=\"nome\", \"cep\", \"logradouro\", \"numero\", \"bairro\", \"municipio\", \"uf\", \"telefone\", \"email\"… (or the class apipj-campo-nome etc.) to the inputs to fill. Inputs named or with the ID apipj_cnpj, apipj_nome, apipj_cep… also work (Contact Form 7, Elementor). The script loads automatically when the page content contains these markers or the [apipj_cnpj] shortcode; enable this option for forms in widgets, popups or templates."
+msgstr ""
+
+#. translators: 1: API status (OK/DEGRADED), 2: month of the Receita Federal data (YYYY-MM).
+#: includes/class-apipj-admin.php:313
+#, php-format
+msgid "API reachable (status %1$s, data from %2$s)."
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-apipj-admin.php:317
+#: includes/class-apipj-admin.php:330
+#, php-format
+msgid "Could not reach apipj.com.br: %s"
+msgstr ""
+
+#: includes/class-apipj-admin.php:318
+msgid "Could not reach apipj.com.br."
+msgstr ""
+
+#: includes/class-apipj-admin.php:323
+msgid "No API key saved yet."
+msgstr ""
+
+#: includes/class-apipj-admin.php:340
+msgid "API key accepted."
+msgstr ""
+
+#. translators: 1: remaining lookups, 2: monthly quota.
+#: includes/class-apipj-admin.php:343
+#, php-format
+msgid "Monthly quota: %1$s of %2$s lookups left."
+msgstr ""
+
+#: includes/class-apipj-admin.php:348
+msgid "Remember to save the settings to keep this key."
+msgstr ""
+
+#: includes/class-apipj-admin.php:354
+msgid "The API key was rejected. Check that it was copied in full (it starts with apipj_live_) and that it was not revoked in your apipj dashboard."
+msgstr ""
+
+#: includes/class-apipj-admin.php:356
+msgid "The monthly quota of this account is exhausted. It resets on the 1st of the month; upgrade at apipj.com.br/precos."
+msgstr ""
+
+#: includes/class-apipj-admin.php:358
+msgid "The API key works, but the per-minute limit was reached. Try again in a minute."
+msgstr ""
+
+#. translators: %d: HTTP status code.
+#: includes/class-apipj-admin.php:361
+#, php-format
+msgid "Unexpected answer from the API (HTTP %d). Try again later."
+msgstr ""
+
+#: includes/class-apipj-admin.php:378
+msgid "apipj – Consulta CNPJ: the monthly lookup quota of your apipj account is exhausted, so CNPJ autofill is paused (customers can still type their data). The quota resets on the 1st of the month, or you can upgrade your plan."
+msgstr ""
+
+#: includes/class-apipj-admin.php:379
+msgid "See plans"
+msgstr ""
+
+#: includes/class-apipj-admin.php:381
+msgid "apipj – Consulta CNPJ: the API key was rejected, so CNPJ autofill is paused. Check the key in the settings."
+msgstr ""
+
+#: includes/class-apipj-admin.php:382
+#: includes/class-apipj-admin.php:429
+msgid "Settings"
+msgstr ""
+
+#: includes/class-apipj-admin.php:391
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-apipj-admin.php:400
+msgid "apipj – Consulta CNPJ needs an API key to look up CNPJs."
+msgstr ""
+
+#: includes/class-apipj-admin.php:402
+msgid "Add your key"
+msgstr ""
+
+#: includes/class-apipj-assets.php:58
+msgid "Searching…"
+msgstr ""
+
+#: includes/class-apipj-assets.php:59
+msgid "Company found"
+msgstr ""
+
+#. translators: %s: registration status at Receita Federal, e.g. BAIXADA.
+#: includes/class-apipj-assets.php:61
+#, php-format
+msgid "Status: %s"
+msgstr ""
+
+#: includes/class-apipj-assets.php:62
+msgid "Orders cannot be placed with a CNPJ whose status is not ATIVA."
+msgstr ""
+
+#: includes/class-apipj-checkout.php:60
+#: includes/class-apipj-checkout.php:121
+#: includes/class-apipj-checkout.php:243
+msgid "CNPJ"
+msgstr ""
+
+#: includes/class-apipj-checkout.php:122
+msgid "CNPJ (optional)"
+msgstr ""
+
+#. translators: 1: CNPJ, 2: registration status at Receita Federal (e.g. BAIXADA).
+#: includes/class-apipj-checkout.php:225
+#, php-format
+msgid "The CNPJ %1$s has the registration status %2$s at Receita Federal. Orders can only be placed with an active (ATIVA) CNPJ."
+msgstr ""
+
+#: includes/class-apipj-rest.php:81
+msgid "Your session has expired. Reload the page to look up the CNPJ."
+msgstr ""
+
+#: includes/class-apipj-rest.php:168
+msgid "Invalid CNPJ. Please check the number."
+msgstr ""
+
+#: includes/class-apipj-rest.php:170
+msgid "CNPJ not found in the Receita Federal database."
+msgstr ""
+
+#: includes/class-apipj-rest.php:172
+msgid "Too many lookups in a short time. Please wait a minute or fill in the fields manually."
+msgstr ""
+
+#: includes/class-apipj-rest.php:175
+msgid "Could not look up the CNPJ right now. Please fill in the fields manually."
+msgstr ""
+
+#: includes/class-apipj-settings.php:33
+msgid "Company name (razão social)"
+msgstr ""
+
+#: includes/class-apipj-settings.php:34
+msgid "Street (logradouro)"
+msgstr ""
+
+#: includes/class-apipj-settings.php:35
+msgid "Number"
+msgstr ""
+
+#: includes/class-apipj-settings.php:36
+msgid "Address line 2 (complemento)"
+msgstr ""
+
+#: includes/class-apipj-settings.php:37
+msgid "Neighborhood (bairro)"
+msgstr ""
+
+#: includes/class-apipj-settings.php:38
+msgid "City"
+msgstr ""
+
+#: includes/class-apipj-settings.php:39
+msgid "State"
+msgstr ""
+
+#: includes/class-apipj-settings.php:40
+msgid "Postcode (CEP)"
+msgstr ""
+
+#: includes/class-apipj-settings.php:41
+msgid "Phone"
+msgstr ""

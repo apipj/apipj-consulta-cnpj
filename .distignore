@@ -1,0 +1,10 @@
+/.git
+/.gitignore
+/.distignore
+/.wordpress-org
+/dev
+/tests
+/phpcs.xml.dist
+/node_modules
+/vendor
+/.gitattributes
