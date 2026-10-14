@@ -57,7 +57,7 @@ const logo = 'data:image/png;base64,' + fs.readFileSync( __dirname + '/brand/app
 					<div style="font-size:${ 11 * k }px;color:#7c848e">CNPJ</div>
 					<div style="font:${ 17 * k }px 'Liberation Mono',monospace">12.ABC.345/01DE-35</div>
 				</div>
-				<div style="font-size:${ 13 * k }px;color:#34d399;margin-top:${ 7 * k }px">&#10003; Empresa encontrada</div>
+				<div style="font-size:${ 13 * k }px;color:#34d399;margin-top:${ 7 * k }px">&#10003; CNPJ válido</div>
 			</div>
 		</body>`;
 	};
